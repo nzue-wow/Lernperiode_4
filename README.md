@@ -4,13 +4,14 @@
 
 ## Grob-Planung
 
-1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
-2. Was wäre ein geeignetes Projekt für diese LP4? Können Sie mit diesem Projekt zeigen, wie Sie sich selbständig in eine Problemstellung einarbeiten können und eine überzeugende Lösung programmieren können?
+1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig? Meine Noten sind gerade oke. Ich war einfach in dem Modul mit UMl nicht so stark aber in den Programmier Modulen war ich nicht schlecht.
+2. Was wäre ein geeignetes Projekt für diese LP4? Können Sie mit diesem Projekt zeigen, wie Sie sich selbständig in eine Problemstellung einarbeiten können und eine überzeugende Lösung programmieren können? Ich denke für diese Lernperiode möchte ich ein Passwortmanager machen. Ich denke es ist ein gutes Projekt um selbständig an einer Problemstellung zu arbeiten.
+Dieser Passwortmanager soll wichtige Passwörter speichern von Apps oder wensites  und er soll noch ein Passwortgenerator haben.
 
 ## 14.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ...
-- [ ] ...
+- [ ] Rausfinden wie man Anfangen kann
+- [ ] Grundgerüst des managers machen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 

@@ -10,19 +10,19 @@ Dieser Passwortmanager soll wichtige Passwörter speichern von Apps oder wensite
 
 ## 14.2: Explorativer Wegwerf-Prototyp
 
-- [ ] Rausfinden wie man Anfangen kann
+- [x] Rausfinden wie man Anfangen kann
 - [ ] Grundgerüst des managers machen
 
 ✍️ Heute habe ich... (50-100 Wörter)
-
+bisschen rausgefunden wie ich in dieses Projekt starten möchte. Ich habe ganz simple gestarten und auch das gemacht was Herr Colic vorher im Call uns gezeigt hat. Ich habe einen Button mit Save new Passwort, wenn man auf den klickt kommt man auf ein neues Fenster wo drauf steht eingabe Passwort. Darunter ist eine Textbox in der Man dann das Passwort eingeben kann.
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ... (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Design des Passwort manegers machen: Passwort eingeben, Webseite oder app dazu, Auf erstem Fenster zweiter Knopf für alle gespeicherten Passw. anzeigen (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
+- [ ] Arrays oder Lists für zum abspeichern
+- [ ] Passwörter wieder anzeigen lassen
+- [ ] neuer button für Anzeigen der Passwörter
 
 ✍️ Heute habe ich... (50-100 Wörter)
 

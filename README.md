@@ -19,16 +19,19 @@ bisschen rausgefunden wie ich in dieses Projekt starten möchte. Ich habe ganz s
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
-- [ ] Design des Passwort manegers machen: Passwort eingeben, Webseite oder app dazu, Auf erstem Fenster zweiter Knopf für alle gespeicherten Passw. anzeigen (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
-- [ ] Arrays oder Lists für zum abspeichern
-- [ ] An Modul 164 arbeiten
+- [x] Design des Passwort manegers machen: Passwort eingeben, Webseite oder app dazu, Auf erstem Fenster zweiter Knopf für alle gespeicherten Passw. anzeigen (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
+- [x] Arrays oder Lists für zum abspeichern
+- [X] An Modul 164 arbeiten
 
 ✍️ Heute habe ich... (50-100 Wörter)
-
+Beim AP offline habe ich das Deign meines Passwort savers gezeichnet und alles was im Programm sein sollte. Dann habe ich im zweiten AP angefangen zu Programmieren und jetzt wennman auf den Button saved passwords klickt kommt man zu einem neuen screen wo jetzt drei passwörter stahen die ich in einem eindimensionalen Array über Code gespeichert habe. In den letzten beiden Ap musst ich dann am Mittwochs Modul arbeiten da wir eine Abgabe haben.
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 28.2: Kern-Funktionalität
-
+- [ ] Array zweidimensional machen damit ich die app und das Passwort kann speichern
+- [ ] Den zweiten screen Programmieren mit der eingabe für ein neus Passwort.
+- [ ] Passwort soll aufgefasst werden( im array)
+- [ ] Passwort soll ausgegeben werden bei saved passwords
 ## 7.3: Kern-Funktionalität
 
 ## 14.3: Architektur ausbauen

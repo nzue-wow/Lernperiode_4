@@ -15,8 +15,6 @@ namespace PasswortManager
         public EingapePasw()
         {
             InitializeComponent();
-            string[] Passwörter = new string[10];
-            Passwörter = System.Convert.ToString(Console.ReadLine(textBox1)); 
         }
     }
 }

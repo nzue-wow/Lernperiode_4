@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Windows.Forms;  
 
 namespace PasswortManager
 {
@@ -19,7 +19,9 @@ namespace PasswortManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new EingapePasw().Show();
+            SavedPasswords savedPasswords = new SavedPasswords();
+            savedPasswords.Show();
         }
+       
     }
 }

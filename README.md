@@ -21,8 +21,7 @@ bisschen rausgefunden wie ich in dieses Projekt starten möchte. Ich habe ganz s
 
 - [ ] Design des Passwort manegers machen: Passwort eingeben, Webseite oder app dazu, Auf erstem Fenster zweiter Knopf für alle gespeicherten Passw. anzeigen (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
 - [ ] Arrays oder Lists für zum abspeichern
-- [ ] Passwörter wieder anzeigen lassen
-- [ ] neuer button für Anzeigen der Passwörter
+- [ ] An Modul 164 arbeiten
 
 ✍️ Heute habe ich... (50-100 Wörter)
 

@@ -10,11 +10,30 @@ using System.Windows.Forms;
 
 namespace PasswortManager
 {
-    public partial class EingapePasw : Form
+    public partial class EingabePasswort : Form
     {
-        public EingapePasw()
+        public EingabePasswort()
         {
             InitializeComponent();
         }
+
+        private void buttonSpeichern_Click(object sender, EventArgs e)
+        {
+            string website = textBox1Website.Text;
+            string passwort = textBox2Passwort.Text;
+
+            if (!string.IsNullOrWhiteSpace(website) && !string.IsNullOrWhiteSpace(passwort))
+            {
+                Form1.passwortListe.Add((website, passwort));
+                MessageBox.Show("Passwort gespeichert!");
+                this.Close();  
+            }
+            else
+            {
+                MessageBox.Show("Bitte alle Felder ausfüllen!");
+            }
+        }
     }
 }
+
+

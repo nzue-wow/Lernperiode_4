@@ -12,7 +12,6 @@ namespace PasswortManager
 {
     public partial class SavedPasswords : Form
     {
-        private string[] savedPasswords = { "save123", "secure?12", "admin124" };
         public SavedPasswords()
         {
             InitializeComponent();
@@ -21,20 +20,18 @@ namespace PasswortManager
 
         private void LoadPasswords()
         {
+            this.Controls.Clear();  
+            int yPosition = 20;
 
-            int yPosition = 20; // Abstand nach oben
-
-            foreach (string password in savedPasswords)
+            foreach (var entry in Form1.passwortListe)
             {
                 Label label = new Label();
-                label.Text = password;
+                label.Text = $"{entry.Website}: {entry.Passwort}";
                 label.AutoSize = true;
                 label.Location = new System.Drawing.Point(20, yPosition);
 
                 this.Controls.Add(label);
                 yPosition += 30;
-
-
             }
         }
     }

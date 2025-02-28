@@ -28,12 +28,17 @@ Beim AP offline habe ich das Deign meines Passwort savers gezeichnet und alles w
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 28.2: Kern-Funktionalität
-- [ ] Array zweidimensional machen damit ich die app und das Passwort kann speichern
-- [ ] Den zweiten screen Programmieren mit der eingabe für ein neus Passwort.
-- [ ] Passwort soll aufgefasst werden( im array)
-- [ ] Passwort soll ausgegeben werden bei saved passwords
+- [x] Array zweidimensional machen damit ich die app und das Passwort kann speichern
+- [x] Den zweiten screen Programmieren mit der eingabe für ein neus Passwort.
+- [ ] Passwort soll aufgefasst werden( im array) --Weis nicht ob es passiert ist--
+- [ ] Passwort soll ausgegeben werden bei saved passwords --Weis nicht ob es passiert ist--
+Heute habe ich...
+Ich habe heute das array zwei dimensional gemacht und ich habe versucht die eingabe bei save new Password zu programmieren. Aber nun wenn ich die buttons im Hauptprogramm drücke gehen die screens von savedpassword und eingabePassword nicht mehr auf.
 ## 7.3: Kern-Funktionalität
-
+- [ ] Fehler finden varum die anderen Screens nicht aufgehen
+- [ ] Fehler korrigieren
+- [ ] Passwort soll aufgefasst werden( im array) 
+- [ ] Passwort soll ausgegeben werden bei saved passwords 
 ## 14.3: Architektur ausbauen
 
 ## 21.3: Architektur ausbauen

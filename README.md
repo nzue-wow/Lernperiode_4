@@ -35,11 +35,19 @@ Beim AP offline habe ich das Deign meines Passwort savers gezeichnet und alles w
 Heute habe ich...
 Ich habe heute das array zwei dimensional gemacht und ich habe versucht die eingabe bei save new Password zu programmieren. Aber nun wenn ich die buttons im Hauptprogramm drücke gehen die screens von savedpassword und eingabePassword nicht mehr auf.
 ## 7.3: Kern-Funktionalität
-- [ ] Fehler finden varum die anderen Screens nicht aufgehen
-- [ ] Fehler korrigieren
-- [ ] Passwort soll aufgefasst werden( im array) 
-- [ ] Passwort soll ausgegeben werden bei saved passwords 
+- [x] Fehler finden warum die anderen Screens nicht aufgehen
+- [x] Fehler korrigieren
+- [x] Passwort soll aufgefasst werden( im array) 
+- [x] Passwort soll ausgegeben werden bei saved passwords
+Heute habe ich...
+Ich habe lange nach dem Fehler gesucht. Es hat sich herausgestellt das die Buttons nicht mit dem Event verknüpft waren. Weil ich warscheinlich irgenwie vorher mal irgendewas geändert habe oder geläscht habe. Dann gab es irgenwie ein fehler im Desiner wo ich dann musste beheben(da habe ich Chatgpt um hilfe gebeten) Dann habe ich es geschafft das es meine Passwörter in einer Liste speichert. Jedoch hat es nicht für immer gespeichert, immer wenn ich das Programm geschlossen habe und wieder geöffnet habe waren die Passwörter weg. Ich habe dann das Speichern mit JSON gemacht. Nun immer wenn ich das Programm schliesse speichert es alle meine Passwörter.
+
 ## 14.3: Architektur ausbauen
+
+- [ ] Die Test Texte aus dem Programm löschen: Da wo noch steht ...wurde geöffnet und man dann noch Ok drücken muss
+- [ ] Passwörter wieder aus der Liste löschen können
+- [ ] Heraus finden wie man das Programm kann sichern damit nicht jeder die Passwörter kann anschauen
+- [ ] Passwort zum ins Programm können machen.(dieses Passwort im kopf behalten oder auf papier aufschreiben)
 
 ## 21.3: Architektur ausbauen
 

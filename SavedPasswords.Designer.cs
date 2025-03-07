@@ -2,15 +2,9 @@
 {
     partial class SavedPasswords
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.ListBox listBoxPasswords;  // <--- NEU HINZUGEFÜGT
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,16 +16,25 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.listBoxPasswords = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+
+            // ListBox Eigenschaften
+            this.listBoxPasswords.FormattingEnabled = true;
+            this.listBoxPasswords.Location = new System.Drawing.Point(20, 20);
+            this.listBoxPasswords.Size = new System.Drawing.Size(760, 400);
+
+            // ListBox dem Fenster hinzufügen
+            this.Controls.Add(this.listBoxPasswords);
+
+            // Fenster-Einstellungen
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "SavedPasswords";
+            this.Text = "Gespeicherte Passwörter";
+
+            this.ResumeLayout(false);
         }
 
         #endregion

@@ -19,21 +19,24 @@ namespace PasswortManager
 
         private void buttonSpeichern_Click(object sender, EventArgs e)
         {
+           
             string website = textBox1Website.Text;
             string passwort = textBox2Passwort.Text;
 
             if (!string.IsNullOrWhiteSpace(website) && !string.IsNullOrWhiteSpace(passwort))
             {
-                Form1.passwortListe.Add((website, passwort));
+                Form1.passwortListe.Add((website, passwort));  // Speichern in Liste
                 MessageBox.Show("Passwort gespeichert!");
                 this.Close();  
             }
             else
             {
-                MessageBox.Show("Bitte alle Felder ausfüllen!");
+                MessageBox.Show("Bitte alle Felder ausfüllen!");  // Fehler wenn Felder leer sind
             }
         }
+
     }
 }
+
 
 

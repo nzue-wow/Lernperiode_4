@@ -18,21 +18,24 @@ namespace PasswortManager
             LoadPasswords();
         }
 
+
         private void LoadPasswords()
         {
-            this.Controls.Clear();  
-            int yPosition = 20;
+            if (listBoxPasswords == null)
+            {
+                MessageBox.Show("Fehler: listBoxPasswords existiert nicht!");
+                return;
+            }
+
+            
 
             foreach (var entry in Form1.passwortListe)
             {
-                Label label = new Label();
-                label.Text = $"{entry.Website}: {entry.Passwort}";
-                label.AutoSize = true;
-                label.Location = new System.Drawing.Point(20, yPosition);
-
-                this.Controls.Add(label);
-                yPosition += 30;
+                listBoxPasswords.Items.Add($"{entry.Website}: {entry.Passwort}");
             }
         }
+
+
     }
 }
+

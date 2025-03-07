@@ -20,6 +20,7 @@
             base.Dispose(disposing);
         }
 
+        
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -33,7 +34,7 @@
             this.textBox2Passwort = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3Passwort = new System.Windows.Forms.Label();
-            this.buttonSpeichern = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -77,21 +78,23 @@
             this.label3Passwort.TabIndex = 4;
             this.label3Passwort.Text = "Passwort";
             // 
-            // buttonSpeichern
+            // button3
             // 
-            this.buttonSpeichern.Location = new System.Drawing.Point(43, 240);
-            this.buttonSpeichern.Name = "buttonSpeichern";
-            this.buttonSpeichern.Size = new System.Drawing.Size(120, 33);
-            this.buttonSpeichern.TabIndex = 5;
-            this.buttonSpeichern.Text = "Speichern";
-            this.buttonSpeichern.UseVisualStyleBackColor = true;
+            this.button3.Location = new System.Drawing.Point(43, 240);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(145, 47);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Speichern";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.buttonSpeichern_Click);
+
             // 
             // EingabePasswort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonSpeichern);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label3Passwort);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2Passwort);
@@ -111,6 +114,6 @@
         private System.Windows.Forms.TextBox textBox2Passwort;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3Passwort;
-        private System.Windows.Forms.Button buttonSpeichern;
+        private System.Windows.Forms.Button button3;
     }
 }

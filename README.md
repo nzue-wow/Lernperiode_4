@@ -45,8 +45,8 @@ Ich habe lange nach dem Fehler gesucht. Es hat sich herausgestellt das die Butto
 
 ## 14.3: Architektur ausbauen
 
-- [ ] Die Test Texte aus dem Programm löschen: Da wo noch steht ...wurde geöffnet und man dann noch Ok drücken muss
-- [ ] Passwörter wieder aus der Liste löschen können
+- [x] Die Test Texte aus dem Programm löschen: Da wo noch steht ...wurde geöffnet und man dann noch Ok drücken muss
+- [x] Passwörter wieder aus der Liste löschen können
 - [ ] Heraus finden wie man das Programm kann sichern damit nicht jeder die Passwörter kann anschauen
 - [ ] Passwort zum ins Programm können machen.(dieses Passwort im kopf behalten oder auf papier aufschreiben)
 

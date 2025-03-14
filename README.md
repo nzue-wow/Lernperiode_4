@@ -50,7 +50,12 @@ Ich habe lange nach dem Fehler gesucht. Es hat sich herausgestellt das die Butto
 - [ ] Heraus finden wie man das Programm kann sichern damit nicht jeder die Passwörter kann anschauen
 - [ ] Passwort zum ins Programm können machen.(dieses Passwort im kopf behalten oder auf papier aufschreiben)
 
+Heute habe ich...
+Ich habe die Test Texte aus dem Programm gelöscht und dann habe ich einen neuen Button bei saved Passwords hinzugefügt. Mit diesem button kann man nun wieder Passwörter löschen wenn man diese nicht mehr in der Liste haben möchte. Dann habe ich angefangen zu über legen wie ich das Programm mit einem code sichern kann. Leider habe ich immernoch keine ahnug wie ich das angehen sollte. Ich habe auch recherchiert aber irgendwie nichts wirklich gefunden. Ich muss das nächstes mal noch genauer anschauen.
 ## 21.3: Architektur ausbauen
+- [ ] Genaue recherche wieman das programm sichert
+- [ ] Sicherung programmieren
+- [ ] Oder  ganz am annfang noch ein fenster hinzufügen wo eine abfrage hat. man muss dann dort etwas bestimmtes eingeben damit man zum orginal fenster kommt. Das kann vielleicht mit einem if statement funktionieren.
 
 ## 28.3: Auspolieren
 

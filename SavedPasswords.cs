@@ -16,7 +16,9 @@ namespace PasswortManager
         {
             InitializeComponent();
             LoadPasswords();
+            buttonDelete.Click += ButtonDelete_Click; // Event-Zuordnung
         }
+
 
 
         private void LoadPasswords()
@@ -32,6 +34,21 @@ namespace PasswortManager
             foreach (var entry in Form1.passwortListe)
             {
                 listBoxPasswords.Items.Add($"{entry.Website}: {entry.Passwort}");
+            }
+        }
+
+        private void ButtonDelete_Click(object sender, EventArgs e)
+        {
+            if (listBoxPasswords.SelectedItem != null)
+            {
+                int selectedIndex = listBoxPasswords.SelectedIndex;
+                Form1.passwortListe.RemoveAt(selectedIndex);
+                listBoxPasswords.Items.RemoveAt(selectedIndex);
+                MessageBox.Show("Passwort gelöscht!");
+            }
+            else
+            {
+                MessageBox.Show("Bitte wählen Sie ein Passwort zum Löschen aus.");
             }
         }
 

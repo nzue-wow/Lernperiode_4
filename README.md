@@ -53,11 +53,15 @@ Ich habe lange nach dem Fehler gesucht. Es hat sich herausgestellt das die Butto
 Heute habe ich...
 Ich habe die Test Texte aus dem Programm gelöscht und dann habe ich einen neuen Button bei saved Passwords hinzugefügt. Mit diesem button kann man nun wieder Passwörter löschen wenn man diese nicht mehr in der Liste haben möchte. Dann habe ich angefangen zu über legen wie ich das Programm mit einem code sichern kann. Leider habe ich immernoch keine ahnug wie ich das angehen sollte. Ich habe auch recherchiert aber irgendwie nichts wirklich gefunden. Ich muss das nächstes mal noch genauer anschauen.
 ## 21.3: Architektur ausbauen
-- [ ] Genaue recherche wieman das programm sichert
-- [ ] Sicherung programmieren
-- [ ] Oder  ganz am annfang noch ein fenster hinzufügen wo eine abfrage hat. man muss dann dort etwas bestimmtes eingeben damit man zum orginal fenster kommt. Das kann vielleicht mit einem if statement funktionieren.
+- [x] Genaue recherche wieman das programm sichert
+- [x] Sicherung programmieren
+- [x] Oder  ganz am annfang noch ein fenster hinzufügen wo eine abfrage hat. man muss dann dort etwas bestimmtes eingeben damit man zum orginal fenster kommt. Das kann vielleicht mit einem if statement funktionieren.
 
+Heute habe ich...
+Die sicherung Programmiert für das Programm. Ich musste ein extra Form machen -> LoginForm, da habe ich ein if statement reingepackt wo man nun ein Passwort eingeben muss. Nun funktioniert es aber nicht ganz, weil Forms1 nicht aufmacht. Vielleicht funtioniert der Login Knopf nicht. 
 ## 28.3: Auspolieren
-
+- [ ] Herausfinden was der Fehler ist.
+- [ ] Fehler korrigieren
+- [ ] Design ändern
 ## 4.4: Auspolieren & Abschluss
 

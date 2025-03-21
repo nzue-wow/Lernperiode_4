@@ -6,9 +6,15 @@ using Newtonsoft.Json;
 
 namespace PasswortManager
 {
+    
+
     public partial class Form1 : Form
     {
+        
+
         public static List<(string Website, string Passwort)> passwortListe = new List<(string, string)>();
+
+        
 
         public Form1()
         {

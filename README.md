@@ -60,8 +60,12 @@ Ich habe die Test Texte aus dem Programm gelöscht und dann habe ich einen neuen
 Heute habe ich...
 Die sicherung Programmiert für das Programm. Ich musste ein extra Form machen -> LoginForm, da habe ich ein if statement reingepackt wo man nun ein Passwort eingeben muss. Nun funktioniert es aber nicht ganz, weil Forms1 nicht aufmacht. Vielleicht funtioniert der Login Knopf nicht. 
 ## 28.3: Auspolieren
-- [ ] Herausfinden was der Fehler ist.
-- [ ] Fehler korrigieren
-- [ ] Design ändern
+- [x] Herausfinden was der Fehler ist.
+- [x] Fehler korrigieren
+- [x] Design ändern
+Heute habe ich...
+Der Fehler lag wieder am  button er musste erstmal mit dem Hauptprogramm verbunden werden. Dann hat das Programm wieder funktioniert. Zum AUspolieren habe ich dann die Screens ein bisschen grösser gemacht, alles zurecht gerichtet, das heisst alles ins Zentrum. Dann habe ich die Hintergrundfarbe gewechselt damit es nicht so langweilig ist.
 ## 4.4: Auspolieren & Abschluss
 
+- [ ] Screens gleich gross machen, so das der Text immer zentriert ist
+- [ ] Code organisieren

@@ -34,29 +34,34 @@
             // 
             // textBoxPasswort
             // 
-            this.textBoxPasswort.Location = new System.Drawing.Point(209, 203);
+            this.textBoxPasswort.Location = new System.Drawing.Point(428, 297);
             this.textBoxPasswort.Name = "textBoxPasswort";
             this.textBoxPasswort.Size = new System.Drawing.Size(347, 31);
             this.textBoxPasswort.TabIndex = 0;
+            this.textBoxPasswort.TextChanged += new System.EventHandler(this.textBoxPasswort_TextChanged);
             // 
             // buttonLogin
             // 
-            this.buttonLogin.Location = new System.Drawing.Point(394, 240);
+            this.buttonLogin.Location = new System.Drawing.Point(613, 345);
             this.buttonLogin.Name = "buttonLogin";
             this.buttonLogin.Size = new System.Drawing.Size(162, 44);
             this.buttonLogin.TabIndex = 1;
             this.buttonLogin.Text = "Login";
             this.buttonLogin.UseVisualStyleBackColor = true;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.ClientSize = new System.Drawing.Size(1274, 689);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.textBoxPasswort);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "LoginForm";
             this.Text = "LoginForm";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -15,8 +15,10 @@ namespace PasswortManager
         public SavedPasswords()
         {
             InitializeComponent();
+            
+            this.StartPosition = FormStartPosition.CenterScreen;
             LoadPasswords();
-            buttonDelete.Click += ButtonDelete_Click; // Event-Zuordnung
+            buttonDelete.Click += ButtonDelete_Click;
         }
 
 
@@ -52,7 +54,10 @@ namespace PasswortManager
             }
         }
 
+        private void SavedPasswords_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
 

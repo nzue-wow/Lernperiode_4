@@ -15,6 +15,10 @@ namespace PasswortManager
         public EingabePasswort()
         {
             InitializeComponent();
+            
+            this.StartPosition = FormStartPosition.CenterScreen;
+            textBox1Website.TextAlign = HorizontalAlignment.Center;
+            textBox2Passwort.TextAlign = HorizontalAlignment.Center;
         }
 
         private void buttonSpeichern_Click(object sender, EventArgs e)

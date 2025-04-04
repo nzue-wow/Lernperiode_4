@@ -34,34 +34,38 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(413, 162);
+            this.button1.Location = new System.Drawing.Point(618, 255);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(237, 81);
             this.button1.TabIndex = 0;
             this.button1.Text = "Save new Password";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click); // HIER HINZUGEFÜGT
-                                                                               // 
-                                                                               // button2
-                                                                               // 
-            this.button2.Location = new System.Drawing.Point(166, 162);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.Window;
+            this.button2.Location = new System.Drawing.Point(368, 255);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(219, 81);
             this.button2.TabIndex = 1;
             this.button2.Text = "Saved Passwords";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click); // HIER HINZUGEFÜGT
-                                                                               // 
-                                                                               // Form1
-                                                                               // 
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // Form1
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.ClientSize = new System.Drawing.Size(1174, 679);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+
         }
 
 

@@ -55,7 +55,7 @@
             // 
             // textBox2Passwort
             // 
-            this.textBox2Passwort.Location = new System.Drawing.Point(322, 138);
+            this.textBox2Passwort.Location = new System.Drawing.Point(608, 138);
             this.textBox2Passwort.Name = "textBox2Passwort";
             this.textBox2Passwort.Size = new System.Drawing.Size(307, 31);
             this.textBox2Passwort.TabIndex = 2;
@@ -72,7 +72,7 @@
             // label3Passwort
             // 
             this.label3Passwort.AutoSize = true;
-            this.label3Passwort.Location = new System.Drawing.Point(317, 99);
+            this.label3Passwort.Location = new System.Drawing.Point(603, 99);
             this.label3Passwort.Name = "label3Passwort";
             this.label3Passwort.Size = new System.Drawing.Size(100, 25);
             this.label3Passwort.TabIndex = 4;
@@ -80,26 +80,27 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(43, 240);
+            this.button3.Location = new System.Drawing.Point(770, 202);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(145, 47);
             this.button3.TabIndex = 5;
             this.button3.Text = "Speichern";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.buttonSpeichern_Click);
-
             // 
             // EingabePasswort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.ClientSize = new System.Drawing.Size(1174, 679);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3Passwort);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2Passwort);
             this.Controls.Add(this.textBox1Website);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "EingabePasswort";
             this.Text = "EingapePasw";
             this.ResumeLayout(false);

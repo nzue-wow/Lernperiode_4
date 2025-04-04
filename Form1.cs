@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;  
 using System.Windows.Forms;
 using Newtonsoft.Json;  
@@ -17,10 +18,11 @@ namespace PasswortManager
         
 
         public Form1()
-        {
-            InitializeComponent();
-            Form1.LoadPasswords();  
-            this.FormClosing += new FormClosingEventHandler(Form1_FormClosing);  
+        { InitializeComponent();
+            
+            this.StartPosition = FormStartPosition.CenterScreen; // Fenster zentriert starten
+            LoadPasswords();
+            this.FormClosing += new FormClosingEventHandler(Form1_FormClosing);
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)

@@ -31,13 +31,16 @@ Passwort löschen:
 ![Screenshot 2025-04-04 094605](https://github.com/user-attachments/assets/8ab5cf57-c9d0-4b1c-a7d4-f8fb7e1609c9)
 ![Screenshot 2025-04-04 094619](https://github.com/user-attachments/assets/088e31e6-e4a2-4db1-9c6e-44a90268f8e1)
 
+
+## Reflexion
+Ich habe in dieser Lernperiode an  einem guten Projekt geabreitet dass mir auch sehr viel Spass gemacht hat. Ausserdem ist eis ein sehr nützliches Programm geworden. In dieser Lernperiode habe ich nun wirklich gelernt wie mit WindForms umzugehen ist im Gegensatz zur letzen Lernperiode. Ich hatte jedoch immer Probleme das manchmal das ganze programm nicht funktioniert hat weil ich manchmal ohne zu überlegen einfach Buttons oder ganze funktionen glöscht habe. Weil das funktioniert nicht so gut in Windforms. Ich habe aber diesen fehler von mir erst gegen ende bemerkt, das ich das nicht machen sollte. Ichhabe in dieser lernperiode auch ein bisschen mehr hilfe von Chatgpt benutzt weil ich auch manchmal diese komischen fehler hatte. Beim nöchsten Programm werde ich versuchen Chagpt möglichsst wenig oder garnicht zu benutzen.
 ## 14.2: Explorativer Wegwerf-Prototyp
 
 - [x] Rausfinden wie man Anfangen kann
 - [ ] Grundgerüst des managers machen
 
 ✍️ Heute habe ich... (50-100 Wörter)
-bisschen rausgefunden wie ich in dieses Projekt starten möchte. Ich habe ganz simple gestarten und auch das gemacht was Herr Colic vorher im Call uns gezeigt hat. Ich habe einen Button mit Save new Passwort, wenn man auf den klickt kommt man auf ein neues Fenster wo drauf steht eingabe Passwort. Darunter ist eine Textbox in der Man dann das Passwort eingeben kann.
+bisschen rausgefunden wie ich in dieses Projekt starten möchte. Ich habe ganz simple gestarten und auch das gemacht was Herr Colic vorher im Call uns gezeigt hat. Ich habe einen Button mit Save new Passwort, wenn man auf den klickt kommt man auf ein neues Fenster wo drauf steht eingabe Passwort. Darunter ist ine Textbox in der Man dann das Passwort eingeben kann.
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 21.2: Explorativer Wegwerf-Prototyp

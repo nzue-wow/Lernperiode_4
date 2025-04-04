@@ -8,6 +8,29 @@
 2. Was wäre ein geeignetes Projekt für diese LP4? Können Sie mit diesem Projekt zeigen, wie Sie sich selbständig in eine Problemstellung einarbeiten können und eine überzeugende Lösung programmieren können? Ich denke für diese Lernperiode möchte ich ein Passwortmanager machen. Ich denke es ist ein gutes Projekt um selbständig an einer Problemstellung zu arbeiten.
 Dieser Passwortmanager soll wichtige Passwörter speichern von Apps oder wensites  und er soll noch ein Passwortgenerator haben.
 
+
+## Fertiges Projekt
+Ich habe ein Passwort Manager Programmiert. In diesem Programm kann man seine Passwörter speichern. Damit die Passwörter auch sicher sind gibt es am Anfang ein Login für das ganze programm. Alles was man eingeben muss ist die App oder die Webseite und dann noch das jeweilige Passwort dazu, wenn die Eingabe gespeichert wurden ist werden die passwörter immer zum nachschauen in einer Liste aufgeschrieben. Falls man das Passwort nicht mehr braucht kann man auch einfach auf das Passwort in der Liste klicken und auf delete drücken.
+
+Login für das Programm:
+![Screenshot 2025-04-04 094326](https://github.com/user-attachments/assets/5a4ec91f-13c4-4616-86a0-c036b4eb93e2)
+![Screenshot 2025-04-04 094345](https://github.com/user-attachments/assets/9ef8d52c-a77d-4dd8-940a-6b5fcea40957)
+
+Mit new Passwords kann man neue Passwörter speichern und mit Saved Passwords kann man die gespeicherten Passwörter anschauen.
+![Screenshot 2025-04-04 094354](https://github.com/user-attachments/assets/9a2a5881-5b48-4431-b535-8bf162081bb7)
+
+New Passwords:
+![Screenshot 2025-04-04 094415](https://github.com/user-attachments/assets/a1ff1393-6df0-4a22-8cd5-56974bef3a6b)
+Neues Password eingeben und speichern:
+![Screenshot 2025-04-04 094512](https://github.com/user-attachments/assets/542a4ef0-739e-42e0-9975-e30e3932dc6f)
+
+Saved Passwords:
+![Screenshot 2025-04-04 094526](https://github.com/user-attachments/assets/294d9b61-7b70-49c5-a9ce-54f7da2e0b9c)
+
+Passwort löschen:
+![Screenshot 2025-04-04 094605](https://github.com/user-attachments/assets/8ab5cf57-c9d0-4b1c-a7d4-f8fb7e1609c9)
+![Screenshot 2025-04-04 094619](https://github.com/user-attachments/assets/088e31e6-e4a2-4db1-9c6e-44a90268f8e1)
+
 ## 14.2: Explorativer Wegwerf-Prototyp
 
 - [x] Rausfinden wie man Anfangen kann

@@ -93,5 +93,5 @@ Heute habe ich...
 Der Fehler lag wieder am  button er musste erstmal mit dem Hauptprogramm verbunden werden. Dann hat das Programm wieder funktioniert. Zum AUspolieren habe ich dann die Screens ein bisschen grösser gemacht, alles zurecht gerichtet, das heisst alles ins Zentrum. Dann habe ich die Hintergrundfarbe gewechselt damit es nicht so langweilig ist.
 ## 4.4: Auspolieren & Abschluss
 
-- [ ] Screens gleich gross machen, so das der Text immer zentriert ist
-- [ ] Code organisieren
+- [x] Screens gleich gross machen, so das der Text immer zentriert ist
+- [x] Code organisieren
